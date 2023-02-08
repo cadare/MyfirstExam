@@ -1,0 +1,60 @@
+
+/* global navbar */
+
+
+
+
+/* Navbar stuff */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0rem;
+    /* border-top:0.8px solid rgba(0, 0, 0, 0.15);
+    border-bottom:0.8px solid rgba(0, 0, 0, 0.15); */
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px; */
+    box-shadow: rgb(38, 57, 77) 60px 0px 60px 5px;
+
+}
+
+
+.heading h4 a{
+    color:lightseagreen;
+    /* text-decoration: none; */
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing:3px;
+  
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+}
+
+.nav-links li{
+    list-style: none;
+  }
+
+.nav-links li a{
+    color:#222;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    padding:14px 16px;
+}
+
+nav li a:hover:not(.active){
+    color:rgb(24, 131, 126);
+}
+
+nav li a.active{
+  color: lightseagreen;
+  width: fit-content;
+}

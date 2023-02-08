@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolBlog</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+ 
+</head>
+<body>
+
+    <!-- -----------------header-------------- -->
+<nav class="navbar">
+    <div class="heading">
+        <h4><a href="/index.html">CoolBlog</a></h4>
+    </div>
+<ul class="nav-links">
+    <li><a class="nav-link-a" href="/index.html">Home</a></li>
+    <li><a class="nav-link-a"  href="/html/about.html">About</a></li>
+    <li><a class="nav-link-a" href="/html/blog.html">Blog</a></li>
+    <li><a class="active nav-link-a" href="/html/contact.html">Contact</a></li>
+</ul>
+
+<div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</div>
+   
+</nav>
+
+
+<!-- -------------section 1 home page----------------- -->
+ <main class="main"><div  class="main-box">
+
+    <div class="section__contact">
+        <div class="contact__container">
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.133984549986!2d10.753770016005737!3d59.92991888187298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e625bebdd55%3A0x87598940160b87fa!2sNoroff%20Oslo!5e0!3m2!1sen!2sse!4v1636307210366!5m2!1sen!2sse"
+            ></iframe>
+          </div>
+          <div class="contact__contact-form">
+          
+            <form class='form-connect'>
+              
+              <h1 class="contact__title">Contact Us</h1>
+  
+              <input  type="text" id="name" placeholder="Your Name" />
+              <small class="error"></small>
+          
+              <input class="email" type="email" name="e-mail" placeholder="Your E-mail" id="email"/>
+              <small class="error"></small>
+             
+             <input  type="text" id="subject" placeholder="subject" />
+              <small class="error"></small>
+          
+             
+              <textarea  name="txt" id="msg" rows="8" placeholder="Your Message"></textarea>
+              <small class="error"></small>
+  
+              <div class="center-btn">
+              <button type="submit" class="contact__btn-send" >Send Now!</button>
+          
+             
+            <div id="success"></div>
+            </div>
+            </form>
+          </div>
+        </div>
+  
+  
+  
+      </div>
+  
+
+</main> 
+
+
+
+<footer>
+    <p>Copyright &copy; <script> document.write(new Date().getFullYear());</script> Made width <span class="material-symbols-outlined">
+        favorite
+        </span> by CoolBlog</p>
+</footer>
+<script src="/js/hamburger.js"></script>
+<script src="/js/form.js"></script>
+</body>
+</html>

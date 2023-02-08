@@ -1,0 +1,78 @@
+ 
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import '/css/imports/index.css';
+ @import "/css/imports/hamburger.css";
+ @import "/css/imports/navbar.css";
+ @import "/css/imports/main.css";
+ @import "/css/imports/apistyle.css";
+@import "/css/imports/footer.css";
+@import "/css/imports/mediaQuery.css";
+@import "/css/imports/about.css";
+@import "/css/imports/contact.css";
+@import '/css/imports/card.css';
+
+
+:root {
+    --main-color:#20B1A9;
+    --white: #ffffff;
+    --dark: #000;
+    --logo-hart: rgb(255, 0, 0);
+
+  }
+ 
+
+* {
+padding:0;
+margin:0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+   
+    color:var(--dark);
+    font-weight: 800;
+    text-transform: uppercase;
+  
+   
+}
+
+
+
+
+p{
+    color:var(--dark);
+    font-weight: 400;
+    font-size: calc(10px + 0.5rem);
+    line-height: 1.2;
+    letter-spacing: 1px;
+    word-spacing: .8px;
+    padding: .75rem 0;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

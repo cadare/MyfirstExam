@@ -1,0 +1,58 @@
+
+
+
+.container-carousel{
+
+min-height: 500px;
+
+border:1px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.wrapper {
+    height: 500px;
+    width: 780px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    border:1px solid red;
+    
+  
+  }
+  
+  .button-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .carousel {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease;
+  }
+  
+  .card {
+    background: black;
+    min-width: 300px;
+    height: 300px;
+    margin-right: 1rem;
+    display: inline-block;
+  }
+
+
+  .card img{
+    height: 100%;
+    width: 100%;
+  }

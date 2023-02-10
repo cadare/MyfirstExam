@@ -1,58 +1,85 @@
 
+.main-box{
+width: 2400px;
 
-
-.container-carousel{
-
-min-height: 500px;
-
-border:1px solid red;
-display: flex;
-justify-content: center;
-align-items: center;
 }
 
 
 .wrapper {
-    height: 500px;
-    width: 780px;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    border:1px solid red;
-    
-  
-  }
-  
-  .button-wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-  }
-  
-  .carousel {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    display: flex;
-    position: absolute;
-    left: 0;
-    transition: all 1s ease;
-  }
-  
-  .card {
-    background: black;
-    min-width: 300px;
-    height: 300px;
-    margin-right: 1rem;
-    display: inline-block;
-  }
+  height: 600px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
 
 
-  .card img{
-    height: 100%;
-    width: 100%;
+ 
+}
+
+.button-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  font-size: 30px;
+
+
+ 
+}
+
+.carousel {
+  margin-top: 5rem;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease;
+ 
+ 
+
+}
+
+.card {
+  /* background: black; */
+  /* border:8px solid red; */
+width: 355px;
+  height: 400px;
+  margin-right: 1rem;
+  display: inline-block;
+
+  
+}
+
+.carousel-img{
+  height: 330px;
+  width:280px;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.card-title{
+font-size: 16px;
+}
+
+.material-redo, .material-undo  {
+ font-size: 30px;
+ height: 30px;
+ width:30px;
+ background-color:var(--white) ;
+ color: var(--dark);
+
+ 
+
+
+}
+
+.main-box{
+  height: 1400px;
+  
   }

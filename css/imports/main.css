@@ -2,7 +2,6 @@
 /* index page main */
 
 .main{
- 
     min-height: calc(100vh - 100px - 58px );
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -10,24 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
-
-
-}
+  }
 
 /* The first box for image and text scroll menu */
 .main-box{
     margin-top: 1rem;
- 
-   min-height:30rem;
-
-   /* border:2px solid red; */
-    /* padding: 0 30px; */
-  
+    min-height:30rem;
     padding:1.5rem;
-    
-/* border:2px solid red; */
-
-   
-  }
+}
 

@@ -37,3 +37,65 @@ rightButton.addEventListener("click", function () {
         carousel.style.transform = `translateX(${offset}px)`;
     }
 })
+const url = "https://sookoob.com/wp-json/wp/v2/posts?_embed&per_page=14"
+
+console.log(url)
+
+
+async function getProducts(url) {
+    const response = await fetch(url);
+    const products = await response.json();
+    // console.log(products)
+
+
+    const newPlay = displayProducts(products)
+
+    console.log(newPlay)
+
+
+}
+
+getProducts(url)
+console.log(getProducts(url))
+
+
+
+
+function displayProducts(products) {
+
+
+
+
+
+    products.forEach(product => {
+
+        const markUp = `      <li class="card" data-target="card">       
+        <div class="carousel-img" 
+        style="background-image: url('${product.better_featured_image
+            .source_url}') "></div>
+        <div class="card-">
+            <h2 class='card-title'>${product.title.rendered}</h2>
+            
+
+<a href="http://127.0.0.1:5502/html/postDetail.html?id=1364">
+<button class="button-27  button-271" role="button">To Blog Posts</button>
+</a>
+        </div>
+    </li>`
+
+
+
+
+        // console.log(markUp)
+        document.querySelector('.carousel').insertAdjacentHTML("afterbegin", markUp)
+
+
+
+    });
+
+
+
+
+
+
+}

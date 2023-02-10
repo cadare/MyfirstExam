@@ -10,8 +10,8 @@ async function getProducts(url) {
     const products = await response.json();
     console.log(products)
 
-    let newArr = displayProducts(products)
-    console.log(newArr)
+    displayProducts(products)
+
 
 
 
@@ -52,6 +52,7 @@ function displayProducts(products) {
 
              </div>  
          `
+
 
 
 

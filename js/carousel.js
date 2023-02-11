@@ -45,7 +45,7 @@ console.log(url)
 async function getProducts(url) {
     const response = await fetch(url);
     const products = await response.json();
-    // console.log(products)
+    console.log(products)
 
 
     const newPlay = displayProducts(products)
@@ -69,19 +69,31 @@ function displayProducts(products) {
 
     products.forEach(product => {
 
-        const markUp = `      <li class="card" data-target="card">       
+        const markUp = `     <li class="card" data-target="card">       
         <div class="carousel-img" 
         style="background-image: url('${product.better_featured_image
             .source_url}') "></div>
-        <div class="card-">
             <h2 class='card-title'>${product.title.rendered}</h2>
+       
+     
+     
+        
+   
+        <a href="html/postDetail.html?id=${product.id}" class="post-link">
+        
+             
+    
+            <button class="button-271" role="button">Read More....</button>
+            
+            
+            </a>  
+        
             
 
-<a href="http://127.0.0.1:5502/html/postDetail.html?id=1364">
-<button class="button-27  button-271" role="button">To Blog Posts</button>
-</a>
-        </div>
-    </li>`
+
+   
+        </li>
+ `
 
 
 

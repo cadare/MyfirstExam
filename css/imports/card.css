@@ -1,4 +1,9 @@
 
+.main-box{
+width: 1200px;
+
+
+}
 
 
 .wrapper {
@@ -9,21 +14,25 @@
   margin: 0 auto;
 
 
+
+
+
  
 }
 
 .button-wrapper {
   width: 100%;
-  height: 100%;
+  height: 75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: absolute;
   font-size: 30px;
-
-
+z-index: 2;
  
 }
+
+
 
 .carousel {
   margin-top: 5rem;
@@ -35,10 +44,11 @@
   position: absolute;
   left: 0;
   transition: all 1s ease;
- 
+
  
 
 }
+/* a {position:relative; z-index:2;} */
 
 .card {
   /* background: black; */
@@ -47,6 +57,7 @@ width: 355px;
   height: 400px;
   margin-right: 1rem;
   display: inline-block;
+
 
   
 }
@@ -61,6 +72,7 @@ background-size: cover;
 
 .card-title{
 font-size: 16px;
+margin-bottom: 2rem;
 }
 
 .material-redo, .material-undo  {
@@ -69,6 +81,7 @@ font-size: 16px;
  width:30px;
  background-color:var(--white) ;
  color: var(--dark);
+
 
  
 
@@ -79,3 +92,42 @@ font-size: 16px;
   height: 1400px;
   
   } */
+
+
+  .button-271{
+    appearance: none;
+    background-color: var(--dark) ;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: var(--white);
+    cursor: pointer;
+    display: block;
+
+    /* margin-top: 1rem; */
+    min-height: 40px;
+    min-width: 130px;
+    outline: none;
+    /* padding: 16px 24px; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    will-change: transform;
+
+  }
+
+
+
+ 
+
+  /* .card_fetch button{
+color:red;
+    background-color: green;
+  padding-top: 3rem;
+  } */
+ 
+

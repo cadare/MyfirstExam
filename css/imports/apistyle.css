@@ -10,6 +10,7 @@
 
 .mainDetail {
    max-width: 700px;
+   margin: 0 auto;
    }
       
       
@@ -56,6 +57,7 @@ margin: 1rem 0rem 4rem 0rem;
     touch-action: manipulation;
     width: 20%;
     will-change: transform;
+ 
  
   }
   

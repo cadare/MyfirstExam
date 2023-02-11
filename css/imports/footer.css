@@ -5,8 +5,13 @@ footer{
     box-shadow: rgb(38, 57, 77) 20px 0px 60px 5px;
      color:#000;
      padding: 20px;
+   
      
   
+}
+
+footer p {
+    font-size: 10px;
 }
 
 /* Heart icon on footer google icons */

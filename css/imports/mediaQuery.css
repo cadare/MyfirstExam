@@ -147,7 +147,7 @@ margin:0 auto;
 
 
    .carousel {
-    margin-bottom: 5rem;
+
 
     list-style: none;
   
@@ -174,7 +174,7 @@ z-index: 9999;
   }
 
   .wrapper {
-    min-height: 6000px;
+    min-height: 5560px;
     width: 332px;
     position: relative;
     overflow: hidden;
@@ -194,7 +194,7 @@ z-index: -1;
   }
 
   .card-title{
-    font-size: 2px;
+
  text-align: center;
     }
 
@@ -202,6 +202,8 @@ z-index: -1;
 text-align: -webkit-center;
     
     }
+
+
 
  
     }

@@ -3,7 +3,7 @@ const url = "https://sookoob.com/wp-json/wp/v2/posts?_embed&per_page=100"
 console.log(url)
 
 // const productContainer = document.querySelector('.productPage');
-let loadMoreBtn = document.querySelector('#load-more-btn');
+
 
 async function getProducts(url) {
     const response = await fetch(url);

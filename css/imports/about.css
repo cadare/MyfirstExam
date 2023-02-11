@@ -5,13 +5,13 @@ display: flex;
       justify-content: center;
       align-items:center;
 border-radius: 5px;
-background: linear-gradient(rgba(34, 176, 168, .8), rgba(23, 176, 168, 1)), url(/images/About-page-moon.jpeg);
+background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .8)), url(/images/About-page-moon.jpeg);
 background-position:top; 
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: 100% 100%;
-border:1px solid var(--main-color);
-border-radius: 5px;
+
+
 }  
 
     
@@ -22,7 +22,7 @@ border-radius: 5px;
   
 
     margin-bottom: 1rem;
-    color:		var(--white);
+    color:		var(--dark);
     font-size: 35px;
     font-weight: 500;
   
@@ -45,7 +45,7 @@ border-radius: 5px;
 {
   height: 2em;
   width: 2em;
-  background: var(--white);
+  background: var(--dark);
   margin-right: 1rem;
 
 
@@ -53,7 +53,7 @@ border-radius: 5px;
 .circle-three{
   height: 3em;
   width: 3em;
-  background: var(--dark);
+  background: var(--logo-hart);
   margin-right: 1rem;
  
 
@@ -62,7 +62,7 @@ border-radius: 5px;
 .circle-two{
   height:4em;
   width:4em;
-  background: var(--logo-hart);
+  background: var(--main-color);
 
 
 
@@ -81,7 +81,7 @@ padding: 1rem;
 }
 
 .text p {
-  color:		var(--white);
+  color:		var(--dark);
 font-weight: 500;
 line-height: 1.3;
 }

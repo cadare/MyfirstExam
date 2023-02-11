@@ -167,10 +167,14 @@ margin:0 auto;
   }
 
 
-  
+  .nav-links{
+position: absolute;
+    background-color:var(--white);
+z-index: 9999;
+  }
 
   .wrapper {
-    min-height: 3500px;
+    min-height: 6000px;
     width: 332px;
     position: relative;
     overflow: hidden;
@@ -192,8 +196,14 @@ z-index: -1;
   .card-title{
     font-size: 2px;
  text-align: center;
-    color: pink;
     }
+
+    .post-link{
+text-align: -webkit-center;
+    
+    }
+
+ 
     }
 
 

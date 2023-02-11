@@ -28,7 +28,7 @@ width: 1200px;
   align-items: center;
   position: absolute;
   font-size: 30px;
-z-index: 2;
+
  
 }
 
@@ -122,12 +122,6 @@ margin-bottom: 2rem;
 
 
 
- 
 
-  /* .card_fetch button{
-color:red;
-    background-color: green;
-  padding-top: 3rem;
-  } */
  
 
